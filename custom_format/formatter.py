@@ -1,5 +1,5 @@
 from behave.formatter.base import Formatter
-from .generator_html import OptionalHtml
+from custom_format.generator_html import OptionalHtml
 from behave.model import ScenarioOutline
 
 
