@@ -7,7 +7,7 @@ from behave.model import ScenarioOutline
 class OptionFormatter(Formatter):
     def __init__(self, stream_opener, config):
         super().__init__(stream_opener, config)
-        # self.stream = self.open()
+        self.stream = self.open()
         self._html = OptionalHtml()
         self.fid = None
         self.data_list = []
