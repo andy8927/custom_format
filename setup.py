@@ -8,4 +8,6 @@ setuptools.setup(
     description="A custom format for optional html form",
     packages=["custom_format"],
     python_requires='>=3.6',
+    license="MIT",
+    install_requires=["behave"]
 )
